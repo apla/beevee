@@ -7,7 +7,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Win32 Release">
-				<Option output="BeeVee.exe" prefix_auto="0" extension_auto="0" />
+				<Option output="../../Obj/Release/BeeVee.exe" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="../BV2" />
 				<Option object_output="../../Obj/Release" />
 				<Option type="0" />
@@ -69,14 +69,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="BV2.h" />
-		<Unit filename="BV2.ico" />
 		<Unit filename="BV2.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
-		<Unit filename="BeeVee.ico" />
 		<Unit filename="ChangeLog.txt" />
-		<Unit filename="Toolbar.bmp" />
-		<Unit filename="beevee2.bmp" />
 		<Unit filename="bv2connect.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -156,7 +152,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="signalndlg.h" />
-		<Unit filename="small.ico" />
 		<Unit filename="statusbar.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -165,6 +160,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="toolbox.h" />
+		<Unit filename="version.h">
+			<Option target="Win32 Debug" />
+		</Unit>
 		<Unit filename="../bv2data/ag3070file.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -244,9 +242,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../steks_c/stext.h" />
-		<Unit filename="version.h">
-			<Option target="Win32 Debug" />
-		</Unit>
 		<Extensions>
 			<envvars />
 			<code_completion />
