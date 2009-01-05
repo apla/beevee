@@ -4,14 +4,14 @@
 	<Project>
 		<Option title="BV2" />
 		<Option pch_mode="0" />
-		<Option compiler="gcc" />
+		<Option compiler="mingw32_compiler" />
 		<Build>
 			<Target title="Win32 Release">
 				<Option output="../../Obj/Release/BeeVee.exe" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="../BV2" />
 				<Option object_output="../../Obj/Release" />
 				<Option type="0" />
-				<Option compiler="gcc" />
+				<Option compiler="mingw32_compiler" />
 				<Option projectResourceIncludeDirsRelation="0" />
 				<Compiler>
 					<Add option="-O2" />
@@ -29,7 +29,7 @@
 				<Option working_dir="../BV2" />
 				<Option object_output="../../Obj/Debug" />
 				<Option type="0" />
-				<Option compiler="gcc" />
+				<Option compiler="mingw32_compiler" />
 				<Option projectResourceIncludeDirsRelation="0" />
 				<Compiler>
 					<Add option="-W" />
@@ -249,7 +249,7 @@
 			<lib_finder disable_auto="1" />
 			<AutoVersioning>
 				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
-				<Settings autoincrement="1" date_declarations="1" do_auto_increment="0" ask_to_increment="0" language="C" svn="1" svn_directory="" header_path="version.h" />
+				<Settings autoincrement="1" date_declarations="1" do_auto_increment="1" ask_to_increment="1" language="C" svn="1" svn_directory="" header_path="version.h" />
 				<Changes_Log show_changes_editor="1" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
 			</AutoVersioning>
 		</Extensions>

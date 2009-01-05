@@ -18,11 +18,11 @@ sData.h
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
     Sihabul Milah
-    http://www.sihab.com
+    http://eshabe.wordpress.com http://eshabe.blogspot.com
     eshabe@gmail.com
     Perumahan Bina Ummah B-15
     Kibing - Batu Aji
-    Kota Batam - 29433
+    Kota Batam - 29432
     INDONESIA
 */
 
