@@ -17,11 +17,11 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
     Sihabul Milah
-    http://www.sihab.com
+    http://eshabe.wordpress.com http://eshabe.blogspot.com
     eshabe@gmail.com
     Perumahan Bina Ummah B-15
     Kibing - Batu Aji
-    Kota Batam - 29433
+    Kota Batam - 29432
     INDONESIA
 */
 
@@ -37,8 +37,8 @@
 #include "../bv2data/sboard.h"
 
 #define BV2_MYVERSION_NUMBER 0x2110
-#define BV2_MYTITLE "BeeVee 2.1.1d3"
-#define BV2_MYVERSION "(1d3.20080805.0)" /* 2.1 */
+#define BV2_MYTITLE "BeeVee 2.1.1"
+#define BV2_MYVERSION "r1.20090105.1" /* 2.1 */
 #define BV2_WINCLASSNAME   "BeeVee"
 
 #ifdef  __cplusplus

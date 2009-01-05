@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Win32 Release" />
-	<File name="BV2.c" open="0" top="0" tabpos="0">
-		<Cursor position="53646" topLine="272" />
+	<File name="BV2.c" open="1" top="0" tabpos="6">
+		<Cursor position="3634" topLine="130" />
 	</File>
-	<File name="BV2.h" open="0" top="0" tabpos="3">
-		<Cursor position="1969" topLine="53" />
+	<File name="BV2.h" open="1" top="0" tabpos="9">
+		<Cursor position="1509" topLine="29" />
 	</File>
-	<File name="BV2.rc" open="0" top="0" tabpos="4">
-		<Cursor position="28109" topLine="508" />
+	<File name="BV2.rc" open="1" top="1" tabpos="8">
+		<Cursor position="8106" topLine="192" />
 	</File>
 	<File name="ChangeLog.txt" open="1" top="0" tabpos="0">
 		<Cursor position="199" topLine="0" />
@@ -136,6 +136,9 @@
 	<File name="toolbox.h" open="0" top="0" tabpos="0">
 		<Cursor position="1125" topLine="0" />
 	</File>
+	<File name="version.h" open="1" top="0" tabpos="7">
+		<Cursor position="583" topLine="4" />
+	</File>
 	<File name="../bv2data/ag3070file.c" open="1" top="0" tabpos="0">
 		<Cursor position="0" topLine="303" />
 	</File>
@@ -157,10 +160,10 @@
 	<File name="../bv2data/bomattr.c" open="1" top="0" tabpos="0">
 		<Cursor position="2827" topLine="0" />
 	</File>
-	<File name="../bv2data/cmpdevs.c" open="1" top="0" tabpos="0">
+	<File name="../bv2data/cmpdevs.c" open="1" top="0" tabpos="1">
 		<Cursor position="452" topLine="0" />
 	</File>
-	<File name="../bv2data/cmpdevs.h" open="1" top="0" tabpos="0">
+	<File name="../bv2data/cmpdevs.h" open="1" top="0" tabpos="2">
 		<Cursor position="1355" topLine="12" />
 	</File>
 	<File name="../bv2data/export.c" open="0" top="0" tabpos="0">
@@ -181,7 +184,7 @@
 	<File name="../bv2data/gencadfile.h" open="0" top="0" tabpos="0">
 		<Cursor position="1097" topLine="0" />
 	</File>
-	<File name="../bv2data/generalxy.c" open="1" top="0" tabpos="1">
+	<File name="../bv2data/generalxy.c" open="1" top="0" tabpos="3">
 		<Cursor position="1503" topLine="29" />
 	</File>
 	<File name="../bv2data/generalxy.h" open="0" top="0" tabpos="0">
@@ -208,10 +211,10 @@
 	<File name="../bv2data/ppcbfile.h" open="0" top="0" tabpos="0">
 		<Cursor position="1094" topLine="0" />
 	</File>
-	<File name="../bv2data/sboard.c" open="1" top="0" tabpos="2">
+	<File name="../bv2data/sboard.c" open="1" top="0" tabpos="4">
 		<Cursor position="16539" topLine="720" />
 	</File>
-	<File name="../bv2data/sboard.h" open="1" top="1" tabpos="3">
+	<File name="../bv2data/sboard.h" open="1" top="0" tabpos="5">
 		<Cursor position="4762" topLine="169" />
 	</File>
 	<File name="../bv2data/unicampcb.c" open="0" top="0" tabpos="0">
