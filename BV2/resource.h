@@ -171,6 +171,7 @@
 #define IDM_EXIT                        102
 #define IDM_README                      103
 #define IDM_COPYING                     104
+#define IDM_CREDITS                     105
 
 #define ID_FILE_OPEN                    401
 #define ID_FILE_OPENRECENT              402

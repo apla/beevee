@@ -2239,7 +2239,7 @@
 	"bv2option.h"
 	"bv2connect.h"
 
-1231170205 source:/home/sihab/PRG/BV21/svn/beevee/BV2/bv2editdev.c
+1250589653 source:/home/sihab/PRG/BV21/svn/beevee/BV2/bv2editdev.c
 	<windows.h>
 	<windowsx.h>
 	"resource.h"
@@ -2392,7 +2392,7 @@
 	"sboard.h"
 	"../sdata_c/sdatateks.h"
 
-1231170207 source:/home/sihab/PRG/BV21/svn/beevee/bv2data/gencadfile.c
+1250589090 source:/home/sihab/PRG/BV21/svn/beevee/bv2data/gencadfile.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -2460,6 +2460,434 @@
 	"../steks_c/stext.h"
 
 1231170208 source:/home/sihab/PRG/BV21/svn/beevee/steks_c/stext.c
+	<string.h>
+	<stdlib.h>
+
+1219520462 source:/home/sihab/PRG/BV21/svn/beevee/slog_c/slog.c
+	<stdio.h>
+	<time.h>
+	<string.h>
+	"slog.h"
+
+1274197277 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.c
+	<windows.h>
+	"resource.h"
+	<commdlg.h>
+	<commctrl.h>
+	"../bv2data/beeveefile.h"
+	"../bv2data/ag3070file.h"
+	"../bv2data/agsj50file.h"
+	"../bv2data/genrad228xfile.h"
+	"../bv2data/generalxy.h"
+	"../bv2data/gencadfile.h"
+	"../bv2data/fabfile.h"
+	"../bv2data/unicampcb.h"
+	"../bv2data/ppcbfile.h"
+	"../bv2data/export.h"
+	"../bv2data/cmpdevs.h"
+	"BV2.h"
+	"toolbox.h"
+	"bv2draw.h"
+	"bv2toolbar.h"
+	"bv2object.h"
+	"bv2find.h"
+	"statusbar.h"
+	"bv2import.h"
+	"bv2option.h"
+	"bv2connect.h"
+	"bv2recents.h"
+	"bv2placement.h"
+	"bv2mergedlg.h"
+	"bv2explacement.h"
+	"bv2loadex.h"
+	"bv2devicendlg.h"
+	"../slog_c/slog.h"
+
+1274200751 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/resource.h
+
+1231170205 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/beeveefile.h
+	"sboard.h"
+
+1231170204 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/sboard.h
+	<stdio.h>
+	"../sdata_c/sdata.h"
+	"../sdata_c/sdatateks.h"
+	"../steks_c/stext.h"
+
+1231170208 /srv/eshabe/Development/PRG/BV21/svn/beevee/sdata_c/sdata.h
+
+1231170208 /srv/eshabe/Development/PRG/BV21/svn/beevee/sdata_c/sdatateks.h
+	"sdata.h"
+
+1231170208 /srv/eshabe/Development/PRG/BV21/svn/beevee/steks_c/stext.h
+
+1231170207 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/ag3070file.h
+	"sboard.h"
+
+1231170205 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/agsj50file.h
+	"sboard.h"
+
+1231170207 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/genrad228xfile.h
+	"sboard.h"
+
+1231170207 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/generalxy.h
+	"sboard.h"
+
+1231170207 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/gencadfile.h
+	"sboard.h"
+
+1231170207 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/fabfile.h
+	"sboard.h"
+
+1231170208 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/unicampcb.h
+	"sboard.h"
+
+1231170208 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/ppcbfile.h
+	<Carbon/Carbon.h>
+	"sboard.h"
+
+1231170207 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/export.h
+	"sboard.h"
+
+1231170204 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/cmpdevs.h
+	"sboard.h"
+
+1274199876 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.h
+	<windows.h>
+	"resource.h"
+	"../bv2data/sboard.h"
+
+1231170207 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/toolbox.h
+	<windows.h>
+
+1231170205 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2draw.h
+	<windows.h>
+	"../sdata_c/sdata.h"
+	"../bv2data/sboard.h"
+
+1231170206 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2toolbar.h
+	<windows.h>
+
+1231170206 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2object.h
+	<windows.h>
+
+1231170205 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2find.h
+	<windows.h>
+
+1231170206 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/statusbar.h
+	<windows.h>
+
+1231170205 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2import.h
+	<windows.h>
+
+1231170206 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2option.h
+	<windows.h>
+
+1231170205 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2connect.h
+	<windows.h>
+
+1231170206 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2recents.h
+	<windows.h>
+
+1231170206 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2placement.h
+	<windows.h>
+	"../bv2data/placefile.h"
+
+1231170208 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/placefile.h
+	"sboard.h"
+
+1231170206 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2mergedlg.h
+	<windows.h>
+
+1231170205 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2explacement.h
+	<windows.h>
+	"../bv2data/export.h"
+
+1231170205 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2loadex.h
+	<windows.h>
+
+1219520466 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2devicendlg.h
+
+1219520462 /srv/eshabe/Development/PRG/BV21/svn/beevee/slog_c/slog.h
+
+1274200748 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.rc
+	"windows.h"
+	"resource.h"
+	"BV2.h"
+	"version.h"
+
+1274200239 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/version.h
+
+1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2connect.c
+	"bv2winmain.h"
+	"BV2.h"
+	"bv2draw.h"
+	"toolbox.h"
+	"bv2connect.h"
+
+1231170206 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2winmain.h
+	<windows.h>
+	<commdlg.h>
+	<commctrl.h>
+	<windowsx.h>
+	"resource.h"
+	<stdlib.h>
+	<string.h>
+	"../sdata_c/sdata.h"
+	"../sdata_c/sdatateks.h"
+	"../bv2data/sboard.h"
+
+1231160133 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2devicendlg.c
+	<windows.h>
+	"resource.h"
+	"../steks_c/stext.h"
+
+1274196966 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2draw.c
+	"bv2winmain.h"
+	"BV2.h"
+	"bv2toolbar.h"
+	"bv2draw.h"
+	"bv2object.h"
+	"statusbar.h"
+	"bv2find.h"
+	"bv2option.h"
+	"bv2connect.h"
+	<math.h>
+	<stdio.h>
+
+1250589653 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2editdev.c
+	<windows.h>
+	<windowsx.h>
+	"resource.h"
+	"BV2.h"
+	"bv2draw.h"
+	"../bv2data/sboard.h"
+
+1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2explacement.c
+	"BV2.h"
+	"resource.h"
+	"bv2explacement.h"
+
+1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2find.c
+	"bv2find.h"
+	"BV2.h"
+	"bv2draw.h"
+	"toolbox.h"
+	"statusbar.h"
+	"bv2object.h"
+	"../sdata_c/sdatateks.h"
+
+1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2findex.c
+	"BV2.h"
+
+1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2import.c
+	"bv2import.h"
+	"resource.h"
+	"toolbox.h"
+
+1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2loadex.c
+	<windows.h>
+	"resource.h"
+
+1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2merge.c
+	"../bv2data/sboard.h"
+
+1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2mergedlg.c
+	"bv2import.h"
+	"resource.h"
+	"toolbox.h"
+	"bv2mergedlg.h"
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2object.c
+	"BV2.h"
+	"bv2object.h"
+	"statusbar.h"
+	"bv2draw.h"
+	"bv2find.h"
+	"resource.h"
+
+1231160134 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2offsetdlg.c
+	<windows.h>
+	"resource.h"
+	"../steks_c/stext.h"
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2option.c
+	"bv2option.h"
+	"resource.h"
+	"../bv2data/sboard.h"
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2placement.c
+	"resource.h"
+	"bv2placement.h"
+	"../steks_c/stext.h"
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2properties.c
+	"resource.h"
+	"../bv2data/sboard.h"
+	"BV2.h"
+
+1274197047 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2recents.c
+	"bv2recents.h"
+	"../sdata_c/sdata.h"
+	"toolbox.h"
+	"resource.h"
+	<stdio.h>
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2toolbar.c
+	"bv2toolbar.h"
+	"resource.h"
+	<commctrl.h>
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2unit.c
+	<windows.h>
+	"resource.h"
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/licence.c
+	"BV2.h"
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/signalndlg.c
+	<windows.h>
+	"resource.h"
+	"../steks_c/stext.h"
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/statusbar.c
+	<windows.h>
+	<commctrl.h>
+	"statusbar.h"
+	"resource.h"
+
+1231170206 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/toolbox.c
+	<windows.h>
+
+1274200769 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/ag3070file.c
+	"ag3070file.h"
+	<stdio.h>
+	<string.h>
+	"../steks_c/stext.h"
+	"../sdata_c/sdatateks.h"
+
+1231170207 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/agsj50file.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"agsj50file.h"
+	"../sdata_c/sdatateks.h"
+
+1231170207 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/beeveefile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"beeveefile.h"
+	"../sdata_c/sdatateks.h"
+
+1274197043 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/bomattr.c
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+	<math.h>
+	"bomattr.h"
+	"../sdata_c/sdatateks.h"
+
+1231170207 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/bomattr.h
+	"sboard.h"
+
+1274197077 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/cmpdevs.c
+	"cmpdevs.h"
+	"../sdata_c/sdatateks.h"
+	<string.h>
+	<stdlib.h>
+
+1231170207 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/export.c
+	"../BV2/bv2explacement.h"
+	"export.h"
+	"unitconv.h"
+
+1231170208 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/unitconv.h
+	"sboard.h"
+
+1250590816 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/fabfile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"sboard.h"
+	"../sdata_c/sdatateks.h"
+
+1250590808 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/gencadfile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"gencadfile.h"
+	"../sdata_c/sdatateks.h"
+
+1231170204 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/generalxy.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"generalxy.h"
+	"../sdata_c/sdatateks.h"
+
+1231170207 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/genrad228xfile.c
+	<stdio.h>
+	<string.h>
+	"genrad228xfile.h"
+	"../sdata_c/sdatateks.h"
+
+1219520462 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/movebrd.c
+	"sboard.h"
+	<windows.h>
+
+1231170207 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/placefile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"placefile.h"
+	"../sdata_c/sdatateks.h"
+	"unitconv.h"
+
+1231170208 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/ppcbfile.c
+	<stdio.h>
+	<string.h>
+	"sboard.h"
+	"../sdata_c/sdatateks.h"
+	"unitconv.h"
+	"ppcbfile.h"
+
+1231170204 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/sboard.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"sboard.h"
+
+1231170208 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/unicampcb.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"sboard.h"
+	"../sdata_c/sdatateks.h"
+
+1231170208 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/sdata_c/sdata.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"sdata.h"
+
+1231170208 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/sdata_c/sdatateks.c
+	<string.h>
+	<stdlib.h>
+	"sdatateks.h"
+	"../steks_c/stext.h"
+
+1219520462 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/slog_c/slog.c
+	<stdio.h>
+	<time.h>
+	<string.h>
+	"slog.h"
+
+1231170208 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/steks_c/stext.c
 	<string.h>
 	<stdlib.h>
 
