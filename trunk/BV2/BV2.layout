@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<ActiveTarget name="Win32 Debug" />
+	<ActiveTarget name="Win32 Release" />
 	<File name="BV2.c" open="1" top="0" tabpos="1">
-		<Cursor position="11070" topLine="400" />
+		<Cursor position="22087" topLine="785" />
 	</File>
-	<File name="BV2.h" open="1" top="0" tabpos="2">
-		<Cursor position="1709" topLine="22" />
+	<File name="BV2.h" open="1" top="1" tabpos="2">
+		<Cursor position="1551" topLine="30" />
 	</File>
 	<File name="BV2.rc" open="1" top="0" tabpos="3">
-		<Cursor position="5421" topLine="123" />
+		<Cursor position="5541" topLine="120" />
 	</File>
 	<File name="bv2connect.c" open="0" top="0" tabpos="0">
 		<Cursor position="1026" topLine="3" />
@@ -20,7 +20,7 @@
 		<Cursor position="1091" topLine="24" />
 	</File>
 	<File name="bv2draw.c" open="1" top="0" tabpos="6">
-		<Cursor position="35715" topLine="1451" />
+		<Cursor position="2000" topLine="51" />
 	</File>
 	<File name="bv2draw.h" open="0" top="0" tabpos="0">
 		<Cursor position="1027" topLine="23" />
@@ -92,7 +92,7 @@
 		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2recents.c" open="0" top="0" tabpos="0">
-		<Cursor position="1027" topLine="23" />
+		<Cursor position="1259" topLine="26" />
 	</File>
 	<File name="bv2recents.h" open="0" top="0" tabpos="0">
 		<Cursor position="1027" topLine="3" />
@@ -112,8 +112,8 @@
 	<File name="licence.c" open="0" top="0" tabpos="0">
 		<Cursor position="1027" topLine="17" />
 	</File>
-	<File name="resource.h" open="0" top="0" tabpos="0">
-		<Cursor position="1027" topLine="23" />
+	<File name="resource.h" open="1" top="0" tabpos="12">
+		<Cursor position="7003" topLine="227" />
 	</File>
 	<File name="signalndlg.c" open="0" top="0" tabpos="0">
 		<Cursor position="1027" topLine="23" />
@@ -134,10 +134,10 @@
 		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="version.h" open="0" top="0" tabpos="7">
-		<Cursor position="299" topLine="6" />
+		<Cursor position="299" topLine="2" />
 	</File>
-	<File name="../bv2data/ag3070file.c" open="0" top="0" tabpos="0">
-		<Cursor position="1027" topLine="23" />
+	<File name="../bv2data/ag3070file.c" open="1" top="0" tabpos="9">
+		<Cursor position="7347" topLine="306" />
 	</File>
 	<File name="../bv2data/ag3070file.h" open="0" top="0" tabpos="0">
 		<Cursor position="1027" topLine="3" />
@@ -155,13 +155,13 @@
 		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/bomattr.c" open="0" top="0" tabpos="0">
-		<Cursor position="1027" topLine="3" />
+		<Cursor position="1238" topLine="23" />
 	</File>
 	<File name="../bv2data/bomattr.h" open="0" top="0" tabpos="0">
 		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/cmpdevs.c" open="0" top="0" tabpos="1">
-		<Cursor position="1027" topLine="3" />
+	<File name="../bv2data/cmpdevs.c" open="1" top="0" tabpos="11">
+		<Cursor position="1145" topLine="24" />
 	</File>
 	<File name="../bv2data/cmpdevs.h" open="0" top="0" tabpos="2">
 		<Cursor position="1027" topLine="12" />
@@ -172,8 +172,8 @@
 	<File name="../bv2data/export.h" open="0" top="0" tabpos="0">
 		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/fabfile.c" open="1" top="1" tabpos="8">
-		<Cursor position="14711" topLine="485" />
+	<File name="../bv2data/fabfile.c" open="1" top="0" tabpos="8">
+		<Cursor position="14711" topLine="464" />
 	</File>
 	<File name="../bv2data/fabfile.h" open="0" top="0" tabpos="0">
 		<Cursor position="1027" topLine="3" />
