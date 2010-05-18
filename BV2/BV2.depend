@@ -2469,7 +2469,7 @@
 	<string.h>
 	"slog.h"
 
-1274197277 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.c
+1274201473 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.c
 	<windows.h>
 	"resource.h"
 	<commdlg.h>
@@ -2552,7 +2552,7 @@
 1231170204 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/cmpdevs.h
 	"sboard.h"
 
-1274199876 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.h
+1274202114 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.h
 	<windows.h>
 	"resource.h"
 	"../bv2data/sboard.h"
