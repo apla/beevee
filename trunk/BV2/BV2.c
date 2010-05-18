@@ -402,7 +402,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.cbWndExtra  = 0;
     wcex.hInstance  = hInstance;
     wcex.hIcon   = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_BV2));
-    wcex.hCursor  = LoadCursor(NULL, MAKEINTRESOURCE(IDC_ARROW));
+    wcex.hCursor  = LoadCursor(hInstance, MAKEINTRESOURCE(IDC_ARROW));
     wcex.hbrBackground = (HBRUSH)(0);
     wcex.lpszMenuName = MAKEINTRESOURCE(IDC_BV2);
     wcex.lpszClassName = szWindowClass;
@@ -799,6 +799,13 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                 //MessageBox (hWnd, mypath, NULL, 0);
                 ShellExecute (NULL, "open",mypath, NULL, NULL, SW_SHOW);
             }
+            break;
+
+            case IDM_CREDITS:
+                MessageBox (hWnd, "- Nanang, Jumali -- BeeVee 1.x\n\
+- Cholis, Didik, Sofyan, Nadhor, Andik -- BeeVee 2.x\n\
+- Francisco Sanchez (2.1.1), Pantas (2.1.2) -- sample (problem) files\n\
+- Burhan, Fathur, Dhani", "Credits", MB_ICONINFORMATION);
             break;
 
             case IDM_EXIT:

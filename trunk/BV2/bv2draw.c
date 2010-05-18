@@ -67,6 +67,9 @@ Tambah toleransi select by click (5 mils, bukan 5 pt!)
 #include "bv2option.h"
 #include "bv2connect.h"
 
+#include <math.h>
+#include <stdio.h>
+
 typedef struct draw_struct {
 	HWND hwnd_This;
 	BOOL b_Draw;

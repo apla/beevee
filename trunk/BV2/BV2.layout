@@ -1,77 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<ActiveTarget name="Win32 Release" />
-	<File name="BV2.c" open="1" top="0" tabpos="6">
-		<Cursor position="3634" topLine="130" />
+	<ActiveTarget name="Win32 Debug" />
+	<File name="BV2.c" open="1" top="0" tabpos="1">
+		<Cursor position="11070" topLine="400" />
 	</File>
-	<File name="BV2.h" open="1" top="0" tabpos="9">
-		<Cursor position="1509" topLine="29" />
+	<File name="BV2.h" open="1" top="0" tabpos="2">
+		<Cursor position="1709" topLine="22" />
 	</File>
-	<File name="BV2.rc" open="1" top="1" tabpos="8">
-		<Cursor position="8106" topLine="192" />
-	</File>
-	<File name="ChangeLog.txt" open="1" top="0" tabpos="0">
-		<Cursor position="199" topLine="0" />
+	<File name="BV2.rc" open="1" top="0" tabpos="3">
+		<Cursor position="5421" topLine="123" />
 	</File>
 	<File name="bv2connect.c" open="0" top="0" tabpos="0">
-		<Cursor position="1014" topLine="0" />
+		<Cursor position="1026" topLine="3" />
 	</File>
 	<File name="bv2connect.h" open="0" top="0" tabpos="0">
-		<Cursor position="1014" topLine="0" />
+		<Cursor position="1026" topLine="3" />
 	</File>
 	<File name="bv2devicendlg.c" open="0" top="0" tabpos="0">
 		<Cursor position="1091" topLine="24" />
 	</File>
-	<File name="bv2draw.c" open="1" top="0" tabpos="0">
-		<Cursor position="21545" topLine="830" />
+	<File name="bv2draw.c" open="1" top="0" tabpos="6">
+		<Cursor position="35715" topLine="1451" />
 	</File>
 	<File name="bv2draw.h" open="0" top="0" tabpos="0">
-		<Cursor position="1831" topLine="24" />
+		<Cursor position="1027" topLine="23" />
 	</File>
-	<File name="bv2editdev.c" open="1" top="0" tabpos="0">
-		<Cursor position="1994" topLine="37" />
+	<File name="bv2editdev.c" open="1" top="0" tabpos="7">
+		<Cursor position="5226" topLine="132" />
 	</File>
 	<File name="bv2explacement.c" open="0" top="0" tabpos="0">
-		<Cursor position="1014" topLine="29" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2explacement.h" open="0" top="0" tabpos="0">
-		<Cursor position="1125" topLine="10" />
+		<Cursor position="1027" topLine="10" />
 	</File>
 	<File name="bv2find.c" open="0" top="0" tabpos="0">
-		<Cursor position="1344" topLine="40" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2find.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="bv2findex.c" open="0" top="0" tabpos="0">
-		<Cursor position="1014" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="bv2import.c" open="0" top="0" tabpos="0">
-		<Cursor position="2712" topLine="52" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2import.h" open="0" top="0" tabpos="0">
-		<Cursor position="1715" topLine="27" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2loadex.c" open="0" top="0" tabpos="0">
-		<Cursor position="1494" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="bv2loadex.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="bv2merge.c" open="0" top="0" tabpos="0">
-		<Cursor position="3256" topLine="124" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2mergedlg.c" open="0" top="0" tabpos="0">
-		<Cursor position="1014" topLine="19" />
+		<Cursor position="1027" topLine="19" />
 	</File>
-	<File name="bv2mergedlg.h" open="1" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+	<File name="bv2mergedlg.h" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="bv2object.c" open="1" top="0" tabpos="0">
-		<Cursor position="6899" topLine="241" />
+	<File name="bv2object.c" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2object.h" open="0" top="0" tabpos="0">
-		<Cursor position="1364" topLine="21" />
+		<Cursor position="1027" topLine="21" />
 	</File>
 	<File name="bv2offsetdlg.c" open="0" top="0" tabpos="0">
 		<Cursor position="2279" topLine="53" />
@@ -79,172 +76,178 @@
 	<File name="bv2offsetdlg.h" open="0" top="0" tabpos="0">
 		<Cursor position="1176" topLine="12" />
 	</File>
-	<File name="bv2option.c" open="1" top="0" tabpos="0">
-		<Cursor position="2780" topLine="77" />
+	<File name="bv2option.c" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2option.h" open="0" top="0" tabpos="0">
-		<Cursor position="2009" topLine="33" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2placement.c" open="0" top="0" tabpos="0">
-		<Cursor position="1097" topLine="27" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2placement.h" open="0" top="0" tabpos="0">
-		<Cursor position="1125" topLine="11" />
+		<Cursor position="1027" topLine="11" />
 	</File>
 	<File name="bv2properties.c" open="0" top="0" tabpos="0">
-		<Cursor position="1183" topLine="35" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2recents.c" open="0" top="0" tabpos="0">
-		<Cursor position="1160" topLine="31" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2recents.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="bv2toolbar.c" open="0" top="0" tabpos="0">
-		<Cursor position="3820" topLine="37" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="bv2toolbar.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="bv2unit.c" open="0" top="0" tabpos="0">
-		<Cursor position="1014" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="bv2winmain.h" open="0" top="0" tabpos="0">
-		<Cursor position="1350" topLine="8" />
+		<Cursor position="1027" topLine="8" />
 	</File>
 	<File name="licence.c" open="0" top="0" tabpos="0">
-		<Cursor position="1275" topLine="17" />
+		<Cursor position="1027" topLine="17" />
 	</File>
-	<File name="resource.h" open="1" top="0" tabpos="0">
-		<Cursor position="7513" topLine="175" />
+	<File name="resource.h" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="signalndlg.c" open="0" top="0" tabpos="0">
-		<Cursor position="1090" topLine="26" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="signalndlg.h" open="0" top="0" tabpos="0">
-		<Cursor position="1150" topLine="10" />
+		<Cursor position="1027" topLine="10" />
 	</File>
 	<File name="statusbar.c" open="0" top="0" tabpos="0">
-		<Cursor position="2161" topLine="83" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="statusbar.h" open="0" top="0" tabpos="0">
-		<Cursor position="1455" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="toolbox.c" open="0" top="0" tabpos="0">
-		<Cursor position="1014" topLine="30" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="toolbox.h" open="0" top="0" tabpos="0">
-		<Cursor position="1125" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="version.h" open="1" top="0" tabpos="7">
-		<Cursor position="583" topLine="4" />
+	<File name="version.h" open="0" top="0" tabpos="7">
+		<Cursor position="299" topLine="6" />
 	</File>
-	<File name="../bv2data/ag3070file.c" open="1" top="0" tabpos="0">
-		<Cursor position="0" topLine="303" />
+	<File name="../bv2data/ag3070file.c" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/ag3070file.h" open="0" top="0" tabpos="0">
-		<Cursor position="1095" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/agsj50file.c" open="1" top="0" tabpos="0">
-		<Cursor position="2453" topLine="41" />
+	<File name="../bv2data/agsj50file.c" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/agsj50file.h" open="0" top="0" tabpos="0">
-		<Cursor position="1120" topLine="0" />
+		<Cursor position="1027" topLine="22" />
 	</File>
-	<File name="../bv2data/beeveefile.c" open="1" top="0" tabpos="0">
-		<Cursor position="22508" topLine="131" />
+	<File name="../bv2data/beeveefile.c" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/beeveefile.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="23" />
 	</File>
-	<File name="../bv2data/bomattr.c" open="1" top="0" tabpos="0">
-		<Cursor position="2827" topLine="0" />
+	<File name="../bv2data/bomattr.c" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/cmpdevs.c" open="1" top="0" tabpos="1">
-		<Cursor position="452" topLine="0" />
+	<File name="../bv2data/bomattr.h" open="0" top="0" tabpos="0">
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/cmpdevs.h" open="1" top="0" tabpos="2">
-		<Cursor position="1355" topLine="12" />
+	<File name="../bv2data/cmpdevs.c" open="0" top="0" tabpos="1">
+		<Cursor position="1027" topLine="3" />
+	</File>
+	<File name="../bv2data/cmpdevs.h" open="0" top="0" tabpos="2">
+		<Cursor position="1027" topLine="12" />
 	</File>
 	<File name="../bv2data/export.c" open="0" top="0" tabpos="0">
-		<Cursor position="1238" topLine="19" />
+		<Cursor position="1027" topLine="19" />
 	</File>
 	<File name="../bv2data/export.h" open="0" top="0" tabpos="0">
-		<Cursor position="1014" topLine="3" />
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/fabfile.c" open="0" top="0" tabpos="0">
-		<Cursor position="14671" topLine="472" />
+	<File name="../bv2data/fabfile.c" open="1" top="1" tabpos="8">
+		<Cursor position="14711" topLine="485" />
 	</File>
 	<File name="../bv2data/fabfile.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/gencadfile.c" open="0" top="0" tabpos="0">
-		<Cursor position="4795" topLine="170" />
+	<File name="../bv2data/gencadfile.c" open="1" top="0" tabpos="5">
+		<Cursor position="14337" topLine="565" />
 	</File>
 	<File name="../bv2data/gencadfile.h" open="0" top="0" tabpos="0">
-		<Cursor position="1097" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/generalxy.c" open="1" top="0" tabpos="3">
-		<Cursor position="1503" topLine="29" />
+	<File name="../bv2data/generalxy.c" open="0" top="0" tabpos="3">
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="../bv2data/generalxy.h" open="0" top="0" tabpos="0">
-		<Cursor position="1314" topLine="21" />
+		<Cursor position="1027" topLine="21" />
 	</File>
 	<File name="../bv2data/genrad228xfile.c" open="0" top="0" tabpos="0">
-		<Cursor position="1300" topLine="23" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/genrad228xfile.h" open="0" top="0" tabpos="0">
-		<Cursor position="1101" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="../bv2data/movebrd.c" open="0" top="0" tabpos="0">
 		<Cursor position="1598" topLine="37" />
 	</File>
 	<File name="../bv2data/placefile.c" open="0" top="0" tabpos="0">
-		<Cursor position="5318" topLine="266" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/placefile.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="../bv2data/ppcbfile.c" open="0" top="0" tabpos="0">
-		<Cursor position="15865" topLine="567" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/ppcbfile.h" open="0" top="0" tabpos="0">
-		<Cursor position="1094" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
-	<File name="../bv2data/sboard.c" open="1" top="0" tabpos="4">
-		<Cursor position="16539" topLine="720" />
+	<File name="../bv2data/sboard.c" open="0" top="0" tabpos="4">
+		<Cursor position="1027" topLine="23" />
 	</File>
-	<File name="../bv2data/sboard.h" open="1" top="0" tabpos="5">
-		<Cursor position="4762" topLine="169" />
+	<File name="../bv2data/sboard.h" open="0" top="0" tabpos="5">
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/unicampcb.c" open="0" top="0" tabpos="0">
-		<Cursor position="13836" topLine="450" />
+		<Cursor position="1027" topLine="23" />
 	</File>
 	<File name="../bv2data/unicampcb.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="../bv2data/unitconv.h" open="0" top="0" tabpos="0">
-		<Cursor position="1016" topLine="0" />
+		<Cursor position="1027" topLine="3" />
 	</File>
 	<File name="../sdata_c/sdata.c" open="0" top="0" tabpos="0">
-		<Cursor position="7656" topLine="356" />
+		<Cursor position="982" topLine="24" />
 	</File>
 	<File name="../sdata_c/sdata.h" open="0" top="0" tabpos="0">
-		<Cursor position="2085" topLine="81" />
+		<Cursor position="973" topLine="24" />
 	</File>
 	<File name="../sdata_c/sdatateks.c" open="0" top="0" tabpos="0">
-		<Cursor position="1209" topLine="30" />
+		<Cursor position="983" topLine="24" />
 	</File>
 	<File name="../sdata_c/sdatateks.h" open="0" top="0" tabpos="0">
-		<Cursor position="1288" topLine="19" />
+		<Cursor position="983" topLine="19" />
+	</File>
+	<File name="../slog_c/slog.c" open="1" top="0" tabpos="4">
+		<Cursor position="0" topLine="15" />
 	</File>
 	<File name="../slog_c/slog.h" open="0" top="0" tabpos="0">
 		<Cursor position="369" topLine="0" />
 	</File>
 	<File name="../steks_c/stext.c" open="0" top="0" tabpos="0">
-		<Cursor position="5766" topLine="343" />
+		<Cursor position="969" topLine="23" />
 	</File>
 	<File name="../steks_c/stext.h" open="0" top="0" tabpos="0">
-		<Cursor position="90" topLine="0" />
+		<Cursor position="396" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

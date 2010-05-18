@@ -161,7 +161,7 @@ void EditDeviceDoManip (HWND hDlg)
 
 LRESULT CALLBACK EditDeviceDlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 {
-	HWND TBCtrl;
+	HWND TBCtrl = NULL;
 	WORD dlgItemID;
 	WORD notifID;
 

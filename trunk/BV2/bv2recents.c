@@ -37,6 +37,8 @@
 
 #include "resource.h"
 
+#include <stdio.h>
+
 #define MAX_RECENTSLIST 20
 
 typedef struct recents_struct{
