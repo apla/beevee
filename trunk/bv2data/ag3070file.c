@@ -239,7 +239,9 @@ int ag3070_baca_boardxy_alternate (char *teks, _sdataptr skomp_ptr, _sdataptr sk
 	TrimLeft(info);
 
 	strcpy(komp, kon);
-	ReplaceChar (komp, '.', 0);
+	if (ReplaceChar (komp, '.', 0)<=0) /* eshabe / 2010-05-18: hanya membaca alternate yg berhubungan dg pin/kaki komponen */
+        return 0;
+
 	//komp_nama_barui_xy (skomp_ptr, komp, x, y, x, y);
 	komp_nama_tambahi_xy (skomp_ptr, komp, x, y, x, y);
 	if (strstr(info, "TOP")!=NULL)
@@ -316,6 +318,10 @@ printf ("ag3070_baca_boardxy %s ...\n", namafile);
 				if (GetLine(line,teks,&p))
 				{
 					i = ReplaceChar (teks, ';', 0);
+#ifdef _BEEVEE_VERBOSE_
+                    puts(teks);
+#endif
+
 					strcat (long_teks, teks);
 					if (i<=0)
 					{

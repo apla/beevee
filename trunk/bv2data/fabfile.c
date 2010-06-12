@@ -490,6 +490,15 @@ printf ("fabmaster_baca_fab %s ...\n", namafile);
 		return 0;
 	}
 
+
+#ifdef _BEEVEE_VERBOSE_
+    printf ("Jumlah Node %d\n", sdata_jumlahdata(&bptr->snode));
+    printf ("Jumlah Komponen %d\n", sdata_jumlahdata(&bptr->skomp));
+    printf ("Jumlah Trace %d\n", sdata_jumlahdata(&bptr->strace));
+    printf ("Jumlah Koneksi %d\n", sdata_jumlahdata(&bptr->skonek));
+#endif
+
+
     if (sdata_jumlahdata(&bptr->snode)==0 ||
         sdata_jumlahdata(&bptr->skomp)==0 ||
         sdata_jumlahdata(&bptr->strace)==0 ||

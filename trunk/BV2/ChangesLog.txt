@@ -1,3 +1,9 @@
+12 June 2010
+   released version 2.1.2.1b1 of BV2
+
+     Change log:
+        -Fixed: Problem read long device information. Applied to node, testpin
+
 18 May 2010
    released version 2.1.2 of BV2
 

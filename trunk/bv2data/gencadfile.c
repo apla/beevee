@@ -81,6 +81,10 @@ void gencad_baca_cad_header (char *teks, boardptr bptr)
 {
 	char fld[64];
 
+#ifdef _BEEVEE_VERBOSE_
+    puts ("gencad_baca_cad_header()");
+#endif
+
 	sscanf (teks, "%s", fld);
 	if (strcmp(fld,"GENCAD")==0)
 	{
@@ -111,8 +115,12 @@ int gencad_baca_cad_shape (char *teks, char *nama, _sdataptr shaptr)
 	int x1,y1,x2,y2,d;
 	_sdatateks steks;
 
-	sscanf (teks, "%s", fld);
 
+#ifdef _BEEVEE_VERBOSE_
+    puts ("gencad_baca_cad_shape()");
+#endif
+
+	sscanf (teks, "%s", fld);
 
 	if (strcmp(fld, "SHAPE")==0)
 	{
@@ -174,6 +182,10 @@ int gencad_baca_cad_komponen (char *teks, char *nama, _sdataptr skomptr, _sdatap
 	short or;
 	char tb;
 	_sdatateks steks;
+
+#ifdef _BEEVEE_VERBOSE_
+    puts ("gencad_baca_cad_komponen()");
+#endif
 
 	sscanf (teks, "%s", fld);
 
@@ -270,6 +282,10 @@ int gencad_baca_cad_device (char *teks, char *nama, _sdataptr sptr)
 	char val[64];
 	char info[SBOARD_INFOLEN+1];
 
+#ifdef _BEEVEE_VERBOSE_
+    puts ("gencad_baca_cad_device()");
+#endif
+
 	sscanf (teks, "%s %s", fld, val);
 	RemoveChar (val, '\"');
 	if (strcmp(fld, "DEVICE")==0)
@@ -281,6 +297,8 @@ int gencad_baca_cad_device (char *teks, char *nama, _sdataptr sptr)
 	{
 		if (strcmp(fld,"VALUE")==0)
             strcpy(fld,"VAL");
+        else if (strcmp(fld, "PINDESCR")==0)
+            return 0;
 		sprintf (info, "%s=%s", fld, val);
 		return komp_tambahi_info (sptr, info);
 	}
@@ -293,6 +311,10 @@ void gedcad_barui_komponen_info (_sdataptr skomptr, _sdataptr sdevptr)
 	Str255 infok;
 	Str255 infod;
 	Str63 pn;
+
+#ifdef _BEEVEE_VERBOSE_
+    puts ("gedcad_barui_komponen_info()");
+#endif
 
 	if (sdata_kekepala(skomptr)>=0)
 	{
@@ -322,6 +344,10 @@ int gencad_baca_cad_signal (char *teks, int nid, _sdataptr snodptr, _sdataptr sk
 {
 	Str63 komp;
 
+#ifdef _BEEVEE_VERBOSE_
+    puts ("gencad_baca_cad_signal()");
+#endif
+
 	if (strncmp(teks, "SIGNAL", 6) == 0)
 	{
 		GetTextStartAtText (teks, komp, Str63Len, " ", 0);
@@ -348,6 +374,10 @@ int gencad_baca_cad_testpin (char *teks, _sdataptr snodptr, _sdataptr stestpoint
 	Str63 testpin;
 	Str63 nomor; /* shb 20070830 - change from 8 to 64 */
 	int x,y;
+
+#ifdef _BEEVEE_VERBOSE_
+    puts ("gencad_baca_cad_testpin()");
+#endif
 
 	sdata_init(&steks);
 	if (strncmp(teks, "TESTPIN", 7)==0)
@@ -383,6 +413,10 @@ int gencad_baca_cad_trace (char *teks, int nid, _sdataptr snodptr, _sdataptr str
 	static int layer=SBOARD_TRACE_INNER;
 	/* int x1,x2,y1,y2; */
 	int data[SBOARD_DATALEN];
+
+#ifdef _BEEVEE_VERBOSE_
+    puts ("gencad_baca_cad_trace()");
+#endif
 
 	if (strncmp(teks, "ROUTE", 5)==0)
 	{
@@ -463,6 +497,10 @@ printf ("gencad_baca_cad %s ...\n", namafile);
 			fgets (line, 255, f);
 			if (feof(f))
 				break;
+
+#ifdef _BEEVEE_VERBOSE_
+puts (line);
+#endif
 
 			p = 0;
 			ReplaceChar (line, '\t',' ');
@@ -549,8 +587,10 @@ printf ("gencad_baca_cad %s ...\n", namafile);
 					}
 				}
 			}
-			else
-				aksi = GENCAD_NONE;
+			//else
+			//	aksi = GENCAD_NONE;
+
+            printf ("aksi=%d\n", aksi);
 
 		}
 		fclose (f);
@@ -572,11 +612,19 @@ printf ("gencad_baca_cad %s ...\n", namafile);
 		return 0;
 	}
 
+#ifdef _BEEVEE_VERBOSE_
+    printf ("Jumlah Node %d\n", sdata_jumlahdata(&bptr->snode));
+    printf ("Jumlah Komponen %d\n", sdata_jumlahdata(&bptr->skomp));
+    printf ("Jumlah Trace %d\n", sdata_jumlahdata(&bptr->strace));
+    printf ("Jumlah Koneksi %d\n", sdata_jumlahdata(&bptr->skonek));
+#endif
+
     if (sdata_jumlahdata(&bptr->snode)==0 ||
         sdata_jumlahdata(&bptr->skomp)==0 ||
         sdata_jumlahdata(&bptr->strace)==0 ||
         sdata_jumlahdata(&bptr->skonek)==0)
         {
+
             board_hapus(bptr);
             return 0;
         }
