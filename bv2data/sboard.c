@@ -869,8 +869,11 @@ int komp_tambahi_info (_sdataptr sptr, const char *info)
 {
 	komponen komp;
 	Str255 info2;
-	if (sdata_ambildataini (sptr, &komp)>=0)
+
+    if (sdata_ambildataini (sptr, &komp)>=0)
 	{
+        if (strlen(komp.info)>=SBOARD_INFOLEN) // eshabe : [2010-06-12] : fix adding device information / note
+            return -1;
 		if ((strlen(info)+strlen(komp.info)+1)>SBOARD_INFOLEN)
 			strncpy(info2,info, SBOARD_INFOLEN-(strlen(komp.info)+1));
 		else
@@ -1128,6 +1131,9 @@ int node_tambahi_info (_sdataptr sptr, const char *info)
 	char info2[SBOARD_INFOLEN+1];
 	if (sdata_ambildataini (sptr, &nd)>=0)
 	{
+	    if (strlen(nd.info)>=SBOARD_INFOLEN) // eshabe : [2010-06-12] fix problem long info
+            return -1;
+
 		if ((strlen(info)+strlen(nd.info)+1)>SBOARD_INFOLEN)
 			strncpy(info2,info, SBOARD_INFOLEN-(strlen(nd.info)+1));
 		else
@@ -1501,6 +1507,9 @@ int tpt_tambahi_info (_sdataptr sptr, const char *info)
 	char info2[SBOARD_TPINFOLEN+1];
 	if (sdata_ambildataini (sptr, &tp)>=0)
 	{
+	    if (strlen(tp.info)>=SBOARD_TPINFOLEN)
+            return -1;
+
 		if ((strlen(info)+strlen(tp.info)+1)>SBOARD_TPINFOLEN)
 			strncpy(info2,info, SBOARD_TPINFOLEN-(strlen(tp.info)+1));
 		else

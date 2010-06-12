@@ -276,7 +276,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
     int len; /* filename len */
 
 #ifdef _DEBUG
-    slog_initbersih (&mylog,"beevee-debug.log","BeeVee2.1.1");
+    slog_initbersih (&mylog,"beevee-debug.log","BeeVee2.1"); // eshabe: [2010-06-12] just 2.1 :)
     slog_tulis (&mylog, "lpCmdLine");
     slog_tulis (&mylog, lpCmdLine);
 #endif

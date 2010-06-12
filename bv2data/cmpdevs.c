@@ -28,6 +28,9 @@
 #include "cmpdevs.h"
 #include "../sdata_c/sdatateks.h"
 
+#include <string.h>
+#include <stdlib.h>
+
 void DoSaveChanges (FILE *f, _sdatateks *steks_new,_sdatateks *steks_move,_sdatateks *steks_del, char *changetxt)
 {
     int i;

@@ -37,8 +37,8 @@
 #include "../bv2data/sboard.h"
 
 #define BV2_MYVERSION_NUMBER 0x2110
-#define BV2_MYTITLE "BeeVee 2.1.2"
-#define BV2_MYVERSION "r2.20100518.1" /* 2.1 */
+#define BV2_MYTITLE "BeeVee 2.1.2.1b1"
+#define BV2_MYVERSION "r2.20100612.1" /* 2.1 */
 #define BV2_WINCLASSNAME   "BeeVee"
 
 #ifdef  __cplusplus

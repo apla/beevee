@@ -2469,7 +2469,7 @@
 	<string.h>
 	"slog.h"
 
-1274201473 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.c
+1276349281 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.c
 	<windows.h>
 	"resource.h"
 	<commdlg.h>
@@ -2552,7 +2552,7 @@
 1231170204 /srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/cmpdevs.h
 	"sboard.h"
 
-1274202114 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.h
+1276352326 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.h
 	<windows.h>
 	"resource.h"
 	"../bv2data/sboard.h"
@@ -2610,13 +2610,13 @@
 
 1219520462 /srv/eshabe/Development/PRG/BV21/svn/beevee/slog_c/slog.h
 
-1274200748 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.rc
+1276352622 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/BV2.rc
 	"windows.h"
 	"resource.h"
 	"BV2.h"
 	"version.h"
 
-1274200239 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/version.h
+1276352804 /srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/version.h
 
 1231170205 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/BV2/bv2connect.c
 	"bv2winmain.h"
@@ -2814,7 +2814,7 @@
 	"sboard.h"
 	"../sdata_c/sdatateks.h"
 
-1250590808 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/gencadfile.c
+1276351506 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/gencadfile.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -2855,7 +2855,7 @@
 	"unitconv.h"
 	"ppcbfile.h"
 
-1231170204 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/sboard.c
+1276350393 source:/srv/eshabe/Development/PRG/BV21/svn/beevee/bv2data/sboard.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>

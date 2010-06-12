@@ -37,6 +37,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <memory.h>
+#include <string.h>
+#include <math.h>
 
 #include "bomattr.h"
 #include "../sdata_c/sdatateks.h"
